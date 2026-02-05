@@ -2,28 +2,32 @@
  import { Star, Quote } from 'lucide-react';
  
  const testimonials = [
-   {
-     name: 'Rajesh Kumar',
-     role: 'Small Business Owner',
-     location: 'Mumbai',
-     rating: 5,
-     comment: 'Excellent service and genuine products. The laser printer I purchased works flawlessly, and their customer support helped me set it up quickly. Highly recommended!',
-   },
-   {
-     name: 'Priya Sharma',
-     role: 'Graphic Designer',
-     location: 'Delhi',
-     rating: 5,
-     comment: 'I\'ve been ordering ink cartridges from Printer Fix for over a year now. The prices are competitive, delivery is always on time, and the quality is consistent.',
-   },
-   {
-     name: 'Amit Patel',
-     role: 'IT Manager',
-     location: 'Bangalore',
-     rating: 5,
-     comment: 'Our office relies on Printer Fix for all printing supplies. Their bulk ordering process is seamless, and the account management team is very responsive.',
-   },
- ];
+  {
+    name: 'Rajesh Kumar',
+    role: 'Small Business Owner',
+    location: 'New York, USA',
+    rating: 5,
+    comment:
+      'Excellent service and genuine products. The laser printer I purchased works flawlessly, and their customer support helped me set it up quickly. Highly recommended!',
+  },
+  {
+    name: 'Priya Sharma',
+    role: 'Graphic Designer',
+    location: 'San Francisco, CA',
+    rating: 5,
+    comment:
+      "I've been ordering ink cartridges from Printer Fix for over a year now. The prices are competitive, delivery is always on time, and the quality is consistent.",
+  },
+  {
+    name: 'Amit Patel',
+    role: 'IT Manager',
+    location: 'Austin, TX',
+    rating: 5,
+    comment:
+      'Our office relies on Printer Fix for all printing supplies. Their bulk ordering process is seamless, and the account management team is very responsive.',
+  },
+];
+
  
  const Testimonials = () => {
    return (
