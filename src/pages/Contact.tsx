@@ -165,9 +165,7 @@
                    <div>
                      <h3 className="font-semibold text-foreground">Address</h3>
                      <p className="text-muted-foreground text-sm mt-1">
-                       123 Business Park, Sector 15<br />
-                       Gurgaon, Haryana 122001<br />
-                       India
+                      20503 Khole Springs Lane, Cypress, TX, 77433
                      </p>
                    </div>
                  </div>
@@ -184,7 +182,7 @@
                      <h3 className="font-semibold text-foreground">Phone</h3>
                      <p className="text-muted-foreground text-sm mt-1">
                        +1-877-419-4506<br />
-                       +91 11 4567 8901
+                      
                      </p>
                    </div>
                  </div>
