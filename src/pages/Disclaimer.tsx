@@ -5,26 +5,12 @@
      <Layout>
        <div className="container mx-auto px-4 py-12">
          <div className="max-w-4xl mx-auto">
-           {/* PAGE TITLE & DATES */}
-<section>
-  <h1 className="text-4xl font-bold text-foreground mb-4">
-    Disclaimer
-  </h1>
-
-  {/* EFFECTIVE & UPDATED DATES */}
-<section>
+           <h1 className="text-4xl font-bold text-foreground mb-8">Disclaimer</h1>
+           <p className="text-muted-foreground mb-8">Last updated: February 5, 2026</p>
+           <div className="prose prose-lg text-muted-foreground space-y-8">
+            <section>
   <p>
-    <strong>Effective Date:</strong> October 23, 2025
-  </p>
-  <p className="mb-6">
-    <strong>Last Updated:</strong> October 23, 2025
-  </p>
-</section>
-
-{/* INTRODUCTION */}
-<section>
-  <p>
-    The information contained on <strong>www.printerfix.com</strong> (“the
+    The information contained on <strong>www.printerfix.shop</strong> (“the
     Site”) is provided by <strong>Printerfix</strong> (“we,” “our,” or
     “us”) for general informational and transactional purposes only.
   </p>
@@ -34,27 +20,30 @@
   </p>
 </section>
 
-{/* 1. INDEPENDENT THIRD-PARTY ENTITY */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     1. Independent Third-Party Entity
   </h2>
 
   <p>
-    Printerfix is an independent online retailer specializing in printers,
+    <strong>Printerfix is an independent online retailer </strong>specializing in printers,
     inks, toners, and related accessories.
   </p>
 
   <p>
-    We are not affiliated with, sponsored by, or authorized by any printer
-    manufacturer or brand, unless explicitly stated.
+    We are <strong>not affiliated with, sponsored by, or authorized by any printer
+    manufacturer or brand,</strong> unless explicitly stated.
   </p>
+
+  <br />
 
   <p>
     All brand names, product names, logos, and trademarks appearing on this
     website are the property of their respective owners and are used solely
-    for identification, compatibility, and reference purposes.
+    for <strong>identification, compatibility, and reference purposes.</strong>
   </p>
+
+  <br />
 
   <p>
     Use of these names or trademarks does not imply endorsement, partnership,
@@ -62,9 +51,8 @@
   </p>
 </section>
 
-{/* 2. PRODUCT REPRESENTATION */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     2. Product Representation
   </h2>
 
@@ -75,18 +63,22 @@
     updates.
   </p>
 
-  <p>
-    Product packaging and labeling may vary based on manufacturer revisions.
-  </p>
+  <br />
 
-  <p>
-    Product colors may appear differently depending on your display settings.
-  </p>
+  <ul className="list-disc pl-6">
+    <li>
+      Product packaging and labeling may vary based on manufacturer revisions.
+    </li>
+    <li>
+      Product colors may appear differently depending on your display settings.
+    </li>
+    <li>
+      Any typographical or pricing errors are subject to correction without
+      prior notice.
+    </li>
+  </ul>
 
-  <p>
-    Any typographical or pricing errors are subject to correction without
-    prior notice.
-  </p>
+  <br />
 
   <p>
     Printerfix reserves the right to modify, update, or discontinue products
@@ -94,17 +86,18 @@
   </p>
 </section>
 
-{/* 3. NO PROFESSIONAL OR TECHNICAL ADVICE */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     3. No Professional or Technical Advice
   </h2>
 
   <p>
     All information provided on this website — including setup guides,
-    troubleshooting tips, and recommendations — is for general informational
-    purposes only.
+    troubleshooting tips, and recommendations — <strong>is for general informational
+    purposes only.</strong>
   </p>
+
+  <br />
 
   <p>
     We do not claim to provide official manufacturer service or technical
@@ -117,9 +110,8 @@
   </p>
 </section>
 
-{/* 4. THIRD-PARTY LINKS & REFERENCES */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     4. Third-Party Links & References
   </h2>
 
@@ -138,10 +130,8 @@
     arising from their use.
   </p>
 </section>
-
-{/* 5. WARRANTY DISCLAIMER */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     5. Warranty Disclaimer
   </h2>
 
@@ -156,15 +146,16 @@
     performance, or fitness for a particular purpose.
   </p>
 
+  <br />
+
   <p>
     Customers are encouraged to review the warranty terms provided by the
     product manufacturer prior to purchase.
   </p>
 </section>
 
-{/* 6. LIMITATION OF LIABILITY */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     6. Limitation of Liability
   </h2>
 
@@ -174,7 +165,9 @@
     from:
   </p>
 
-  <ul className="list-disc pl-6 space-y-2">
+  <br />
+
+  <ul className="list-disc pl-6">
     <li>The use or inability to use our website or products.</li>
     <li>Errors, omissions, or inaccuracies in website content.</li>
     <li>
@@ -186,21 +179,22 @@
     </li>
   </ul>
 
-  <p className="mt-4">
+  <br />
+
+  <p>
     Our total liability, in any case, shall not exceed the total amount paid
     by the customer for the purchased product.
   </p>
 </section>
 
-{/* 7. ADVERTISING & ENDORSEMENTS */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     7. Advertising & Endorsements
   </h2>
 
   <p>
     Printerfix promotes its products through digital advertising platforms
-    such as Google Ads, Microsoft Advertising, Facebook Ads, and others.
+    such as <strong> Google Ads, Microsoft Advertising, Facebook Ads, and others.</strong>
   </p>
 
   <p>
@@ -208,22 +202,24 @@
     including:
   </p>
 
-  <ul className="list-disc pl-6 space-y-2">
+  <br />
+
+  <ul className="list-disc pl-6">
     <li>Accurate product representation</li>
     <li>No misleading or deceptive claims</li>
     <li>Clear identification of our independent business status</li>
   </ul>
 
-  <p className="mt-4">
-    Any promotional statements or offers featured in ads are specific to Smart
-    ePrint and not associated with any printer brand or manufacturer.
+  <br />
+
+  <p>
+    Any promotional statements or offers featured in ads are <strong> specific to
+    Printerfix and not associated with any printer brand or manufacturer.</strong>
   </p>
 </section>
 
-
-{/* 8. CHANGES TO THIS DISCLAIMER */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     8. Changes to This Disclaimer
   </h2>
 
@@ -238,9 +234,8 @@
   </p>
 </section>
 
-{/* 9. CONTACT US */}
 <section>
-  <h2 className="text-xl font-semibold mb-4">
+  <h2 className="text-xl font-semibold text-foreground mb-4">
     9. Contact Us
   </h2>
 
@@ -249,15 +244,21 @@
     Policy, please contact us:
   </p>
 
-  <p className="mt-4">
+  <br />
+
+  <p>
     <strong>Printerfix</strong><br />
     📧 Email: support@printerfix.shop<br />
     📞 Phone: +1-877-419-4506<br />
     📍 Address: 20503 Khole Springs Lane, Cypress, TX, 77433<br />
-    🌐 Website: www.printerfix.com
+    🌐 Website: www.printerfix.shop
   </p>
 </section>
-</section>
+
+
+
+             
+           </div>
          </div>
        </div>
      </Layout>
