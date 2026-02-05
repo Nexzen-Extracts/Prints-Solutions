@@ -1,136 +1,353 @@
  import Layout from '@/components/layout/Layout';
- 
- const PrivacyPolicy = () => {
-   return (
-     <Layout>
-       <div className="container mx-auto px-4 py-12">
-         <div className="max-w-4xl mx-auto">
-           <h1 className="text-4xl font-bold text-foreground mb-8">Privacy Policy</h1>
-           <p className="text-muted-foreground mb-8">Last updated: February 5, 2026</p>
- 
-           <div className="prose prose-lg text-muted-foreground space-y-8">
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">1. Introduction</h2>
-               <p>
-                 Printer Fix ("we", "our", or "us") operates the website printerfix.shop. This Privacy Policy 
-                 explains how we collect, use, disclose, and safeguard your information when you visit our 
-                 website or make a purchase.
-               </p>
-               <p>
-                 By using our website, you consent to the data practices described in this policy. If you 
-                 do not agree with the terms of this privacy policy, please do not access the site.
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">2. Information We Collect</h2>
-               <p>We may collect information about you in a variety of ways:</p>
-               <h3 className="text-lg font-medium text-foreground mt-4 mb-2">Personal Data</h3>
-               <p>
-                 When you make a purchase or attempt to make a purchase, we collect certain information 
-                 from you, including your name, billing address, shipping address, payment information, 
-                 email address, and phone number.
-               </p>
-               <h3 className="text-lg font-medium text-foreground mt-4 mb-2">Device Information</h3>
-               <p>
-                 When you visit our website, we automatically collect certain information about your device, 
-                 including your web browser, IP address, time zone, and some of the cookies installed on 
-                 your device.
-               </p>
-               <h3 className="text-lg font-medium text-foreground mt-4 mb-2">Order Information</h3>
-               <p>
-                 We collect information about the products you view, add to cart, purchase, and any 
-                 interactions you have with our website.
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">3. How We Use Your Information</h2>
-               <p>We use the information we collect to:</p>
-               <ul className="list-disc pl-6 space-y-2">
-                 <li>Process and fulfill your orders</li>
-                 <li>Communicate with you about your orders and provide customer support</li>
-                 <li>Send you promotional emails (you can opt out at any time)</li>
-                 <li>Improve our website and product offerings</li>
-                 <li>Screen orders for potential fraud or risk</li>
-                 <li>Comply with applicable laws and regulations</li>
-               </ul>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">4. Sharing Your Information</h2>
-               <p>
-                 We share your Personal Information with third parties only to help us process orders 
-                 and operate our business:
-               </p>
-               <ul className="list-disc pl-6 space-y-2">
-                 <li>Payment processors to process your payments securely</li>
-                 <li>Shipping partners to deliver your orders</li>
-                 <li>Analytics providers to help us understand website usage</li>
-               </ul>
-               <p className="mt-4">
-                 We do not sell, trade, or rent your personal identification information to others.
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">5. Data Security</h2>
-               <p>
-                 We implement appropriate technical and organizational security measures to protect your 
-                 personal information against unauthorized access, alteration, disclosure, or destruction. 
-                 All payment transactions are processed through secure payment gateways and we do not 
-                 store your credit card information on our servers.
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">6. Your Rights</h2>
-               <p>You have the right to:</p>
-               <ul className="list-disc pl-6 space-y-2">
-                 <li>Access the personal information we hold about you</li>
-                 <li>Request correction of inaccurate information</li>
-                 <li>Request deletion of your personal information</li>
-                 <li>Opt out of marketing communications</li>
-               </ul>
-               <p className="mt-4">
-                 To exercise any of these rights, please contact us at support@printerfix.shop
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">7. Cookies</h2>
-               <p>
-                 We use cookies and similar tracking technologies to track activity on our website. 
-                 Cookies are small data files stored on your device. You can instruct your browser to 
-                 refuse all cookies or indicate when a cookie is being sent. However, if you do not 
-                 accept cookies, you may not be able to use some portions of our website.
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">8. Changes to This Policy</h2>
-               <p>
-                 We may update this privacy policy from time to time. We will notify you of any changes 
-                 by posting the new policy on this page and updating the "Last updated" date.
-               </p>
-             </section>
- 
-             <section>
-               <h2 className="text-xl font-semibold text-foreground mb-4">9. Contact Us</h2>
-               <p>
-                 If you have any questions about this Privacy Policy, please contact us at:
-               </p>
-               <p className="mt-2">
-                 Email: support@printerfix.shop<br />
-                 Phone: +1-877-419-4506<br />
-                 Address: 20503 Khole Springs Lane, Cypress, TX, 77433
-               </p>
-             </section>
-           </div>
-         </div>
-       </div>
-     </Layout>
-   );
- };
- 
- export default PrivacyPolicy;
+
+const PrivacyPolicy = () => {
+  return (
+    <Layout>
+      <div className="container mx-auto px-4 py-12">
+        <div className="max-w-4xl mx-auto">
+          {/* PAGE TITLE & DATES */}
+<section>
+  <h1 className="text-4xl font-bold text-foreground mb-4">
+    Privacy Policy
+  </h1>
+
+  <p className="text-muted-foreground">
+    <strong>Effective Date:</strong> October 23, 2025
+  </p>
+  <p className="text-muted-foreground mb-6">
+    <strong>Last Updated:</strong> October 23, 2025
+  </p>
+</section>
+
+{/* INTRODUCTION */}
+<section>
+  <p>
+    Welcome to <strong>Printerfix</strong> (“we,” “our,” or “us”). Your
+    privacy matters to us, and we are committed to protecting the personal
+    information you share when you visit or make a purchase through our
+    website <strong>www.printerfix.com</strong> (“the Site”).
+  </p>
+</section>
+
+{/* POLICY SCOPE */}
+<section>
+  <p>
+    This Privacy Policy describes how we collect, use, disclose, and protect
+    your information in compliance with applicable privacy laws in the United
+    States (including the California Consumer Privacy Act (CCPA) and the
+    California Privacy Rights Act (CPRA)) and Canada (under the Personal
+    Information Protection and Electronic Documents Act (PIPEDA)).
+  </p>
+</section>
+
+{/* USER CONSENT */}
+<section>
+  <p>
+    By using our website, you acknowledge and agree to this Privacy Policy.
+  </p>
+</section>
+
+
+            {/* 1. Information We Collect */}
+            <section>
+              <h2 className="text-xl font-semibold text-foreground mb-4">
+                1. Information We Collect
+              </h2>
+
+              <p>
+                We collect personal and non-personal information to process
+                orders, enhance user experience, and improve our services.
+              </p>
+
+              <h3 className="text-lg font-medium text-foreground mt-4 mb-2">
+                1.1 Personal Information
+              </h3>
+
+              <p>When you engage with our website, we may collect:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Full name</li>
+                <li>Email address</li>
+                <li>Billing and shipping address</li>
+                <li>Phone number</li>
+                <li>
+                  Payment details (processed securely through third-party
+                  payment gateways)
+                </li>
+                <li>Order history, preferences, and communication records</li>
+              </ul>
+
+              <h3 className="text-lg font-medium text-foreground mt-6 mb-2">
+                1.2 Non-Personal Information
+              </h3>
+
+              <p>Automatically collected data may include:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>IP address</li>
+                <li>Browser type and operating system</li>
+                <li>Device information (desktop, tablet, or mobile)</li>
+                <li>Website usage statistics and browsing patterns</li>
+                <li>Cookies, pixels, and similar tracking technologies</li>
+              </ul>
+            </section>
+
+            {/* 2. How We Use Your Information */}
+            <section>
+              <h2 className="text-xl font-semibold text-foreground mb-4">
+                2. How We Use Your Information
+              </h2>
+
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Process and fulfill orders efficiently</li>
+                <li>Provide shipping updates and order confirmations</li>
+                <li>Communicate with you regarding support or inquiries</li>
+                <li>
+                  Improve website performance and personalize your experience
+                </li>
+                <li>
+                  Send promotional offers, newsletters, or updates (only with
+                  your consent)
+                </li>
+                <li>
+                  Prevent fraudulent activity and ensure platform security
+                </li>
+                <li>Comply with legal, tax, and regulatory obligations</li>
+              </ul>
+            </section>
+
+            {/* 3. Sharing of Information */}
+            <section>
+              <h2 className="text-xl font-semibold text-foreground mb-4">
+                3. Sharing of Information
+              </h2>
+
+              <p>
+                We do not sell or rent your personal data. However, we may share
+                limited information with trusted third parties:
+              </p>
+
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  <strong>Payment Processors:</strong> To authorize and complete
+                  secure transactions.
+                </li>
+                <li>
+                  <strong>Shipping Carriers:</strong> To deliver your orders
+                  accurately and on time.
+                </li>
+                <li>
+                  <strong>Service Providers:</strong> For hosting, analytics,
+                  marketing, and customer support.
+                </li>
+                <li>
+                  <strong>Legal Authorities:</strong> When required by law or to
+                  prevent fraud.
+                </li>
+              </ul>
+
+              <p className="mt-4">
+                All partners are contractually obligated to protect your data
+                and use it only for authorized purposes.
+              </p>
+            </section>
+
+            {/* 4. Cookies */}
+            <section>
+              <h2 className="text-xl font-semibold text-foreground mb-4">
+                4. Cookies and Tracking Technologies
+              </h2>
+
+              <p>
+                We use cookies and tracking tools to enhance your browsing
+                experience and deliver relevant promotions.
+              </p>
+
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  <strong>Essential Cookies:</strong> Required for website
+                  functionality.
+                </li>
+                <li>
+                  <strong>Performance Cookies:</strong> Analyze site traffic
+                  and usability.
+                </li>
+                <li>
+                  <strong>Marketing Cookies:</strong> Enable personalized ads
+                  and remarketing.
+                </li>
+              </ul>
+
+              <p className="mt-4">
+                You can manage or disable cookies via your browser settings.
+              </p>
+            </section>
+
+            {/* 5. DATA SECURITY */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    5. Data Security
+  </h2>
+
+  <p>
+    We use robust technical and organizational safeguards to protect your
+    personal data, including:
+  </p>
+
+  <ul className="list-disc pl-6 space-y-2 mt-3">
+    <li>SSL encryption for secure data transmission</li>
+    <li>Encrypted payment gateways for financial transactions</li>
+    <li>Firewalls and threat monitoring systems</li>
+    <li>Restricted employee access to sensitive data</li>
+  </ul>
+
+  <p className="mt-4">
+    Despite these efforts, no system is 100% secure. You share information
+    with us at your own discretion.
+  </p>
+</section>
+
+{/* 6. YOUR PRIVACY RIGHTS */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    6. Your Privacy Rights (U.S. & Canada)
+  </h2>
+
+  <p>
+    Depending on your location, you may have the right to:
+  </p>
+
+  <ul className="list-disc pl-6 space-y-2 mt-3">
+    <li>Access the personal data we hold about you</li>
+    <li>Request corrections to inaccurate or outdated information</li>
+    <li>
+      Request deletion of your personal data (subject to legal requirements)
+    </li>
+    <li>Opt out of marketing communications or targeted advertising</li>
+    <li>Limit data sharing under CCPA/CPRA provisions</li>
+  </ul>
+
+  <p className="mt-4">
+    To exercise your rights, contact us at{' '}
+    <strong>support@printerfix.shop</strong> or call{' '}
+    <strong>+1-877-419-4506</strong>.
+  </p>
+
+  <p>
+    We may verify your identity before processing your request.
+  </p>
+</section>
+
+{/* 7. DATA RETENTION */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    7. Data Retention
+  </h2>
+
+  <p>
+    We retain your data only for as long as necessary to:
+  </p>
+
+  <ul className="list-disc pl-6 space-y-2 mt-3">
+    <li>Fulfill your orders and provide support</li>
+    <li>Maintain accurate business, tax, and compliance records</li>
+    <li>Meet legal and regulatory obligations</li>
+  </ul>
+
+  <p className="mt-4">
+    When no longer required, data is securely deleted or anonymized.
+  </p>
+</section>
+
+              {/* 8. THIRD-PARTY LINKS */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    8. Third-Party Links
+  </h2>
+
+  <p>
+    Our website may include links to third-party platforms or external
+    websites. We are not responsible for their privacy practices or content.
+    Please review their privacy policies before providing any personal
+    information.
+  </p>
+</section>
+
+{/* 9. CHILDREN’S PRIVACY */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    9. Children’s Privacy
+  </h2>
+
+  <p>
+    Our services are intended for users aged 18 years and older.
+  </p>
+
+  <p>
+    We do not knowingly collect personal data from minors. If we learn that
+    we have unintentionally gathered data from a child, it will be promptly
+    deleted.
+  </p>
+</section>
+
+{/* 10. INTERNATIONAL DATA TRANSFERS */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    10. International Data Transfers
+  </h2>
+
+  <p>
+    Your data may be stored or processed outside your country of residence,
+    including in the United States.
+  </p>
+
+  <p>
+    We ensure that any cross-border transfer complies with applicable
+    privacy laws and provides adequate protection standards.
+  </p>
+</section>
+
+{/* 11. UPDATES TO THIS POLICY */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    11. Updates to This Policy
+  </h2>
+
+  <p>
+    We may revise this Privacy Policy from time to time to reflect changes
+    in technology, laws, or business operations.
+  </p>
+
+  <p>
+    The revised version will be posted on this page with an updated “Last
+    Updated” date. Continued use of the website constitutes acceptance of
+    the revised policy.
+  </p>
+</section>
+
+{/* 12. CONTACT US */}
+<section>
+  <h2 className="text-xl font-semibold text-foreground mb-4">
+    12. Contact Us
+  </h2>
+
+  <p>
+    If you have any questions, requests, or concerns about this Privacy
+    Policy, please contact us:
+  </p>
+
+  <p className="mt-4">
+    <strong>Printerfix</strong><br />
+    📧 Email: support@printerfix.shop<br />
+    📞 Phone: +1-877-419-4506<br />
+    📍 Address: 20503 Khole Springs Lane, Cypress, TX, 77433<br />
+    🌐 Website: www.printerfix.com
+  </p>
+</section>
+
+          </div>
+        </div>
+      
+    </Layout>
+  );
+};
+
+export default PrivacyPolicy;
